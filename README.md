@@ -45,7 +45,7 @@ credit to day cyberwox at cyberwoxacademy.com
 <br />
 
 </b>
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>VMware Workstation</b>
 - <b>pfSense</b>
