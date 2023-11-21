@@ -35,7 +35,7 @@ credit to day cyberwox at cyberwoxacademy.com
 </p>
 <br /><br />
 
-  - Designed and implemented an efficient network topology for the homelab.
+  - Implemented an efficient network topology for the homelab.
   - Configured network interfaces, adapters, and segmentation for optimal performance.
 <br />
 
