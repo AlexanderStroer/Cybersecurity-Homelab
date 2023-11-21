@@ -45,7 +45,6 @@ credit to day cyberwox at cyberwoxacademy.com
   - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, and Windows desktops.
 <br />
 </b>
-
 <h2>Languages and Utilities Used</h2>
 
 - <b>VMware Workstation</b>
