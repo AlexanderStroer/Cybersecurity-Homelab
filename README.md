@@ -14,16 +14,14 @@ In this project, I deployed Active Directory on Windows Server 2019 using Oracle
 
 🏆 Key Achievements:
 
-  - Built a customized host PC with specific hardware components.
   - Successfully installed VMware Workstation as the hypervisor for virtualization.
   - Configured pfSense firewall for network segmentation and security, utilizing multiple network adapters.
   - Implemented Security Onion as an all-in-one IDS, Security Monitoring, and Log Management solution.
   - Set up Kali Linux as an attack machine with specific network configurations.
   - Configured a Windows Server as a Domain Controller, creating a secure Active Directory environment.
-  - Added Windows desktops to the domain and configured them for network communication.
-  - Installed and configured Splunk, a widely-used SIEM, on a Ubuntu Server for log aggregation.
+  - Added a Windows desktop to the domain and configured it for network communication.
+  - Installed and configured Splunk on a Ubuntu Server for log aggregation.
   - Deployed the Splunk Universal Forwarder on a Windows Server for forwarding logs to the Splunk instance.
-  - Incorporated various Linux machines (Ubuntu, CentOS, Metasploitable, DVWA, Vulnhub) for diverse lab scenarios.
 
 🌐 Homelab Network Design & Topology:
 <br/>
