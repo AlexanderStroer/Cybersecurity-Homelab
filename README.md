@@ -52,8 +52,7 @@ credit to day cyberwox at cyberwoxacademy.com
 - <b>Security Onion</b>
 - <b>Kali Linux</b>
 - <b>Windows Server</b>
-- <b>Ubuntu Server</b>
-- <b>Splunk</b>
+- <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
 
 <h2>Environments Used </h2>
