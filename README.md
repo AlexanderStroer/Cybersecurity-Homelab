@@ -33,7 +33,7 @@ Kali Linux was set up to function as the designated attack machine, featuring sp
 <p align="center">
 credit to day cyberwox at cyberwoxacademy.com
 </p>
-<br />
+
   - Implemented an efficient network topology for the homelab.
   - Configured network interfaces, adapters, and segmentation for optimal performance.
 <br />
@@ -43,6 +43,7 @@ credit to day cyberwox at cyberwoxacademy.com
   - Installed VMware Workstation 16 Pro for virtualization, providing a scalable and robust environment.
   - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, and Windows desktops.
 <br />
+
 </b>
 <h2>Languages and Utilities Used</h2>
 
