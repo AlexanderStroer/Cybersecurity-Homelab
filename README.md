@@ -34,8 +34,6 @@ Kali Linux was set up to function as the designated attack machine, featuring sp
 credit to day cyberwox at cyberwoxacademy.com
 </p>
 
-  - Implemented an efficient network topology for the homelab.
-  - Configured network interfaces, adapters, and segmentation for optimal performance.
 <br />
 
 🔧 Infrastructure:
