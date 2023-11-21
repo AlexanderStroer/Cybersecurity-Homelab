@@ -1,11 +1,14 @@
 <h1>Basic Active Directory Home Lab</h1>
+<b>
 <h2>Description</h2>
-In this project, I deployed Active Directory on Windows Server 2019 using Oracle VirtualBox. Key achievements included creating customized Virtual Machines on Windows 10 and Server 2019, and configuring network settings efficiently. The Active Directory setup involved promoting Server 2019 to a domain controller and creating an administrator account. Infrastructure management included RAS/NAT implementation for internet access and DHCP configuration for automatic IP assignment. And testing was done by creating a Windows 10 Client to verify network connectivity.
+In this homelab, VMware Workstation was installed as the hypervisor, serving as the virtualization platform. The pfSense firewall was configured to utilize multiple network adapters to implement network segmentation. Security Onion, an integrated solution for IDS, Security Monitoring, and Log Management, was implemented to fortify the defensive capabilities of the lab.
+<br /><br />
+Kali Linux was set up to function as the designated attack machine, featuring specific network configurations tailored to the project's requirements. A Windows Server was configured as a secure Domain Controller, establishing an Active Directory environment. A Windows desktop was seamlessly integrated into the domain and configured for efficient network communication. Additionally, Splunk was installed and configured on a Ubuntu Server for centralized log aggregation, and the Splunk Universal Forwarder was deployed on a Windows Server to facilitate log forwarding.
 <br />
 <br />
 
 <h2>Project overview:</h2>
-<b>
+
 <p align="center">
   
 🎯 Objective:
@@ -24,35 +27,43 @@ In this project, I deployed Active Directory on Windows Server 2019 using Oracle
   - Deployed the Splunk Universal Forwarder on a Windows Server for forwarding logs to the Splunk instance.
 
 🌐 Homelab Network Design & Topology:
-<br/>
+<br/><br />
+
 <img width="800" alt="" src="https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/27c5ff48-2f6d-4b1d-87bd-9ed527600e13">
-<br /><br />
+<br /><br /><br />
+
   - Designed and implemented an efficient network topology for the homelab.
   - Configured network interfaces, adapters, and segmentation for optimal performance.
+<br />
 
-🔧 Infrastructure Building:
+🔧 Infrastructure:
 
-  - Constructed the host PC with an AMD Ryzen 5 3600X CPU, G.Skill Ripjaws V Series 32 GB RAM, and other specified components.
   - Installed VMware Workstation 16 Pro for virtualization, providing a scalable and robust environment.
   - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, and Windows desktops.
 <br />
-
+</b>
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Active Directory Domain Services</b>
-- <b>Oracle VirtualBox</b>
-- <b>Powershell</b>
+- <b>VMware Workstation</b>
+- <b>pfSense</b>
+- <b>Security Onion</b>
+- <b>Kali Linux</b>
+- <b>Windows Server</b>
+- <b>Ubuntu Server</b>
+- <b>Splunk</b>
+- <b>Splunk Universal Forwarder</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
 - <b>Windows Server 2019</b>
+- <b>Linux</b>
 
 
 
 
-</b>
+
 </p>
 
 <!--
