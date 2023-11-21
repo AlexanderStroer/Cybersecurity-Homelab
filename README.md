@@ -41,7 +41,7 @@ credit to day cyberwox at cyberwoxacademy.com
 🔧 Infrastructure:
 
   - Installed VMware Workstation 16 Pro for virtualization, providing a scalable and robust environment.
-  - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, and Windows desktops.
+  - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, Windows desktops and Ubuntu Server for Splunk.
 <br />
 
 </b>
