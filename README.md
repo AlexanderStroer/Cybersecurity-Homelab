@@ -1,4 +1,4 @@
-<h1>Basic Active Directory Home Lab</h1>
+<h1>Cybersecurity Home Lab</h1>
 <b>
 <h2>Description</h2>
 In this homelab, VMware Workstation was installed as the hypervisor, serving as the virtualization platform. The pfSense firewall was configured to utilize multiple network adapters to implement network segmentation. Security Onion, an integrated solution for IDS, Security Monitoring, and Log Management, was implemented to fortify the defensive capabilities of the lab.
