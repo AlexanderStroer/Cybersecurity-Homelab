@@ -7,12 +7,6 @@ In this homelab, VMware Workstation was installed as the hypervisor, serving as 
 Kali Linux was set up to function as the designated attack machine. A Windows Server was configured as a secure Domain Controller, establishing an Active Directory environment. A Windows desktop was integrated into the domain and configured for efficient network communication. Additionally, Splunk was installed and configured on a Ubuntu Server for centralized log aggregation, and the Splunk Universal Forwarder was deployed on a Windows Server to facilitate log forwarding.
 <br />
 <br />
-  
-<h2>Attacks Perfomed </h2>
-
-- <b>Active Directory</b>
-  - <b>[SMB Attack](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/SMB)</b>
-<br />
 
 <h2>Project overview:</h2>
 
@@ -66,6 +60,12 @@ credit to day cyberwox at cyberwoxacademy.com
 - <b>Windows 10</b>
 - <b>Windows Server 2019</b>
 - <b>Linux</b>
+
+<h2>Attacks Perfomed </h2>
+
+- <b>Active Directory</b>
+  - <b>[SMB Attack](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/SMB)</b>
+<br />
 
 </p>
 
