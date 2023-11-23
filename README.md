@@ -12,9 +12,10 @@ Kali Linux was set up to function as the designated attack machine, featuring sp
 
 <p align="center">
   
-🎯 Objective:
+🎯 Objectives:
 
   - Establish a comprehensive Cybersecurity Homelab for Detection & Monitoring.
+  - Continue progessing my knowledge by performing and monitoring common attacks.
 
 🏆 Key Achievements:
 
