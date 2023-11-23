@@ -1,12 +1,13 @@
 <h1>SMB Attack</h1>
 <b>
 <h2>Description</h2>
-My current goal with this project is ...
-</b>
+This attack utilizes open connections on ports 139 and 445
 <br />
 <br />
 
 <h2>Attack overview:</h2>
+The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.
+</b>
 
 <p align="center">
 <h2>Utilities Used</h2>
