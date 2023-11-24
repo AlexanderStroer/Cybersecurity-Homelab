@@ -42,6 +42,7 @@ You’ll need to install impacket for kali linux, you can find it here: <br />
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
 - <b>Responder</b>
+- <b>Hashcat</b>
 
 <h2>Environments Used </h2>
 
