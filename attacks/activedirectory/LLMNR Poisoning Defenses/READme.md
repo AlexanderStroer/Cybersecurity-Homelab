@@ -6,11 +6,20 @@ This attack takes advantage of the way Windows systems perform name resolution. 
 <br />
 
 <h2>Attack overview:</h2>
-## Mitigation
 
-- **Disabling LLMNR** – LLMNR can be turned-off through
-the group policy editor, under the “policy setting” menu under Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client.
-- **Disabling NBT-NS** – NBT-NS can be turned off through the Network Connection Settings. Navigate to Network Connections > Internet Protocol Version 4 > Properties > General > Advanced > WINS, then select “Disable NetBIOS over TCP/IP”.
+ - Mitigation
+   - **Disabling LLMNR** – LLMNR can be turned-off through
+the group policy editor, under the “policy setting” menu under<br /> Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client.
+   - **Disabling NBT-NS** – NBT-NS can be turned off through the Network Connection Settings. Navigate to Network Connections > Internet Protocol Version 4 > Properties > General > Advanced > WINS, then select “Disable NetBIOS over TCP/IP”.
+<br />
+
+ - Attack
+
+You’ll need to install impacket for kali linux, you can find it here: <br />
+[Impacket](https://github.com/fortra/impacket)
+<br />
+
+
 </b>
 
 <p align="center">
