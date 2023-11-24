@@ -6,7 +6,7 @@ This attack takes advantage of the way Windows systems perform name resolution. 
 <br />
 
 <h2>Attack overview:</h2>
-The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.
+The first step 
 </b>
 
 <p align="center">
