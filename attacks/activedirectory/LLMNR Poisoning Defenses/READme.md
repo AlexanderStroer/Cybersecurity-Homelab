@@ -14,7 +14,12 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
 <br />
 
 <b>
- 
+
+You’ll need to install impacket for kali linux, you can find it here: <br />
+[Impacket](https://github.com/fortra/impacket)
+<br />
+
+
  - Attack
 1. </b>Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)<br />
@@ -27,14 +32,6 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
 
 
 <br />
-<b>
-You’ll need to install impacket for kali linux, you can find it here: <br />
-[Impacket](https://github.com/fortra/impacket)
-<br />
-
-
-</b>
-
 <p align="center">
 <h2>Utilities Used</h2>
 
