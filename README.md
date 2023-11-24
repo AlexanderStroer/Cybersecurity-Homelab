@@ -49,7 +49,7 @@ credit to day cyberwox at cyberwoxacademy.com
 - <b>pfSense</b>
 - <b>Security Onion</b>
 - <b>Kali Linux</b>
-- <b>Windows Server</b>
+- <b>Windows Server 2019 (as Active Directory)</b>
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
 - <b>Impacket's Responder</b>
