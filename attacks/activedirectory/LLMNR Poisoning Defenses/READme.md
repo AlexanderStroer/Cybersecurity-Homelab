@@ -6,7 +6,11 @@ This attack takes advantage of the way Windows systems perform name resolution. 
 <br />
 
 <h2>Attack overview:</h2>
-The first step 
+## Mitigation
+
+- **Disabling LLMNR** – LLMNR can be turned-off through
+the group policy editor, under the “policy setting” menu under Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client.
+- **Disabling NBT-NS** – NBT-NS can be turned off through the Network Connection Settings. Navigate to Network Connections > Internet Protocol Version 4 > Properties > General > Advanced > WINS, then select “Disable NetBIOS over TCP/IP”.
 </b>
 
 <p align="center">
