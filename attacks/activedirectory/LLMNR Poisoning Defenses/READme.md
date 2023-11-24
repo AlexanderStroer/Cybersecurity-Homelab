@@ -23,6 +23,7 @@ The first step
 <h2>Environments Used </h2>
 
 - <b>Windows Server 2019</b>
+- <b>Windows 10</b>
 - <b>Linux</b>
 
 </p>
