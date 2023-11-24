@@ -1,7 +1,7 @@
 <h1>SMB Attack</h1>
 <b>
 <h2>Description</h2>
-This attack utilizes open connections on ports 139 and 445
+This attack takes advantage of the way Windows systems perform name resolution. Impacket's Repsonder can intercept authentication requests to capture plaintext credentials or hashes.
 <br />
 <br />
 
@@ -18,6 +18,7 @@ The first step involved creating a file share to open ports 139 and 445. I have 
 - <b>Windows Server</b>
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
+- <b>Responder</b>
 
 <h2>Environments Used </h2>
 
