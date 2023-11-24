@@ -1,4 +1,4 @@
-<h1>SMB Attack</h1>
+<h1>SMB Relay Attacks</h1>
 <b>
 <h2>Description</h2>
 This attack utilizes open connections on ports 139 and 445
