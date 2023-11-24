@@ -15,8 +15,7 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
 
 <b>
  
- - Attack</b>
- 
+ - Attack
    - Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1
      ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)
    - Run Responder with the command <i> responder -I eth1 -wd </i>(ignorantly put, this will act almost like a DNS except it will wait the source to fail to resolve a destination upon which responder will falsely claim that it has that information and receive the traffic illegitimately)
