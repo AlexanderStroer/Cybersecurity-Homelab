@@ -63,7 +63,7 @@ credit to day cyberwox at cyberwoxacademy.com
 <h2>Attacks Perfomed </h2>
 
 - <b>Active Directory</b>
-  - <b>[LLMNR Poisoning Defenses](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/LLMNR%20Poisoning%20Defenses)
+  - <b>[LLMNR Poisoning](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/LLMNR%20Poisoning)
   - <b>[SMB Relay Attacks](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/SMB)</b>
 <br />
 
