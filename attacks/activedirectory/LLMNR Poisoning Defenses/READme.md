@@ -1,4 +1,4 @@
-<h1>SMB Attack</h1>
+<h1>LLMNP Poisoning Defenses</h1>
 <b>
 <h2>Description</h2>
 This attack takes advantage of the way Windows systems perform name resolution. Impacket's Repsonder can intercept authentication requests to capture plaintext credentials or hashes.
