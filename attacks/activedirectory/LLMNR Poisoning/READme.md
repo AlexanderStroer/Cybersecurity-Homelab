@@ -33,7 +33,6 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
  
  - Attack
 
-<br />
  
 You’ll need to install impacket for kali linux, you can find it here: <br />
 [Impacket](https://github.com/fortra/impacket)<br />
