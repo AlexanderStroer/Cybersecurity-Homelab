@@ -14,6 +14,10 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
 <br />
 
  - Attack
+   - Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1
+     ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/6a607894-5e2a-474e-b305-d5804bc50292)
+   - Run Responder (ignorantly put, this will act almost like a DNS except it will wait the source to fail to resolve a destination upon which responder will falsely claim that it has that information and receive the traffic illegitimately)
+
 
 You’ll need to install impacket for kali linux, you can find it here: <br />
 [Impacket](https://github.com/fortra/impacket)
