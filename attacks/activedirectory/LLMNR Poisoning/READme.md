@@ -6,15 +6,16 @@ This attack takes advantage of the way Windows systems perform name resolution. 
  
 <p align="center">
 <h2>Utilities Used</h2>
-
+ 
+- <b>Responder</b>
+- <b>Hashcat</b>
 - <b>VMware Workstation</b>
 - <b>Security Onion</b>
 - <b>Kali Linux</b>
 - <b>Windows Server</b>
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
-- <b>Responder</b>
-- <b>Hashcat</b>
+
 
 <h2>Environments Used </h2>
 
