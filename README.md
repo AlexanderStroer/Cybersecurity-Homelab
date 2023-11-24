@@ -58,7 +58,10 @@ credit to day cyberwox at cyberwoxacademy.com
 
 - <b>Windows 10</b>
 - <b>Windows Server 2019</b>
-- <b>Linux (Ubuntu and Kali)</b>
+- <b>Linux</b>
+  - <b>Ubuntu</b>
+  - <b>Ubuntu Server</b>
+  - <b>Kali</b>
 
 <h2>Attacks Perfomed </h2>
 
