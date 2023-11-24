@@ -2,7 +2,7 @@
 <b>
 <h2>Description</h2>
 This attack takes advantage of the way Windows systems perform name resolution. Impacket's Repsonder can intercept authentication requests to capture plaintext credentials or hashes.
-<br /><br />
+<br />
  
 <p align="center">
 <h2>Utilities Used</h2>
