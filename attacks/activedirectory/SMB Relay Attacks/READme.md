@@ -15,7 +15,7 @@ The first step involved creating a file share to open ports 139 and 445. I have 
 - <b>VMware Workstation</b>
 - <b>Security Onion</b>
 - <b>Kali Linux</b>
-- <b>Windows Server</b>
+- <b>Windows Server 2019 (as Active Directory)</b>
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
 
