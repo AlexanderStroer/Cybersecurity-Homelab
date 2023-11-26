@@ -56,6 +56,7 @@ credit to day cyberwox at cyberwoxacademy.com
 - <b>Ubuntu Server (as Splunk)</b>
 - <b>Splunk Universal Forwarder</b>
 - <b>Impacket's Responder</b>
+- <b>netcat</b>
 
 <h2>Environments Used </h2>
 
