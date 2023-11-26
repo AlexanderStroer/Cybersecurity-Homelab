@@ -30,20 +30,19 @@ My current goal with this project is to invest time into researching and learnin
   - Installed and configured Splunk on a Ubuntu Server for log aggregation.
   - Deployed the Splunk Universal Forwarder on a Windows Server for forwarding logs to the Splunk instance.
 
-🌐 Homelab Network Design & Topology:
-<br/><br />
-
-<img width="800" height="500" alt="" src="https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/27c5ff48-2f6d-4b1d-87bd-9ed527600e13">
-<p align="center">
-credit to day cyberwox at cyberwoxacademy.com
-</p>
-
-<br />
-
 🔧 Infrastructure:
 
   - Installed VMware Workstation 16 Pro for virtualization, providing a scalable and robust environment.
   - Created Virtual Machines for pfSense, Security Onion, Kali Linux, Windows Server, Windows desktops and Ubuntu Server for Splunk.
+
+🌐 Homelab Network Design & Topology:
+<br/><br />
+
+<img width="800" height="500" alt="" src="https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/27c5ff48-2f6d-4b1d-87bd-9ed527600e13">
+<p align="right">
+credit to day cyberwox at cyberwoxacademy.com
+</p>
+
 <br />
 
 </b>
