@@ -34,9 +34,19 @@
 - <b>Windows Server 2019</b>
 - <b>Linux</b>
 <h2>Attack overview:</h2>
+
+You may need to run the setup for impacket in order to get the python script to run. <br />
+
+Do this by navigating to the impacket directory and running <code>python setup.py install</code>
+
+<br />
+<br />
+
 1. The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.<br />
 
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/e8f4f31f-0110-4536-b964-c6aa065ceee3)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/35a525c0-7996-4f35-8d78-cb988016a59b)
 
 
 </p>
