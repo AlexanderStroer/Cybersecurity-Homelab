@@ -1,8 +1,13 @@
 <h1>LLMNP Poisoning</h1>
 <b>
 <h2>Description</h2>
-This attack takes advantage of the way Windows systems perform name resolution. Impacket's Repsonder can intercept authentication requests to capture plaintext credentials or hashes.
-<br />
+LLMNR (Link-Local Multicast Name Resolution) poisoning is an attack that exploits the default behavior of Windows systems in resolving hostnames. In this attack, tools like Impacket's Responder are employed to intercept name resolution requests.
+
+When a Windows system is unable to resolve a hostname using traditional methods such as DNS, it sends out LLMNR requests to the local network. LLMNR poisoning involves responding to these requests with fraudulent information, redirecting the target system to an attacker-controlled system.
+
+Impacket's Responder, a popular tool for LLMNR poisoning, captures authentication requests sent by the target system. This interception allows the attacker to obtain plaintext credentials or hashed passwords, depending on the authentication protocols in use.
+
+By manipulating the name resolution process, LLMNR poisoning creates a stealthy avenue for attackers to harvest sensitive credentials, posing a significant security risk to Windows-based networks. Organizations must be vigilant in implementing countermeasures to mitigate the impact of LLMNR poisoning, such as disabling LLMNR where it is unnecessary and implementing secure authentication practices.<br />
  
 <p align="center">
 <h2>Utilities Used</h2>
@@ -22,16 +27,34 @@ This attack takes advantage of the way Windows systems perform name resolution. 
 - <b>Windows Server 2019</b>
 - <b>Windows 10</b>
 - <b>Linux</b>
-<h2>Attack overview:</h2>
 
- - Mitigation</b>
-   - Disabling LLMNR – LLMNR can be turned-off through
-the group policy editor, under the “policy setting” menu under<br /> Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client.
-   - Disabling NBT-NS – NBT-NS can be turned off through the Network Connection Settings. Navigate to Network Connections > Internet Protocol Version 4 > Properties > General > Advanced > WINS, then select “Disable NetBIOS over TCP/IP”.
-<br />
+<h2>Mitigation</h2>
+<p>Effectively mitigating SMB Relay Attacks involves implementing security measures to address specific vulnerabilities. Two critical measures include:</p>
+
+<ol>
+  <li><strong>Disabling LLMNR:</strong> LLMNR (Link-Local Multicast Name Resolution) can be a potential vulnerability and is recommended to be disabled. Follow these steps to turn it off through the Group Policy Editor:</li>
+
+  <ul>
+    <li>Open the Group Policy Editor by navigating to <code>Local Computer Policy &gt; Computer Configuration &gt; Administrative Templates &gt; Network &gt; DNS Client</code>.</li>
+    <li>Locate the "Turn Off Multicast Name Resolution" policy setting.</li>
+    <li>Enable the policy setting to disable LLMNR.</li>
+  </ul>
+  <br />
+
+  <li><strong>Disabling NBT-NS:</strong> NBT-NS (NetBIOS Name Service) can pose security risks and should be disabled. Follow these steps to turn it off through the Network Connection Settings:</li>
+
+  <ul>
+    <li>Navigate to <code>Network Connections &gt; [Your Network Connection] &gt; Properties &gt; Internet Protocol Version 4 &gt; Properties &gt; General &gt; Advanced &gt; WINS</code>.</li>
+    <li>Select "Disable NetBIOS over TCP/IP."</li>
+  </ul>
+</ol>
+
+<p>By implementing these measures, you can significantly reduce the attack surface and strengthen your defenses against SMB Relay Attacks.</p>
+
+
 <b>
  
- - Attack
+<h2>Attack</h2>
 
  
 You’ll need to install impacket for kali linux, you can find it here: 
