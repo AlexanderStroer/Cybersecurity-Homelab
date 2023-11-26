@@ -22,17 +22,15 @@
 <p align="center">
 <h2>Utilities Used</h2>
 
-- <b>VMware Workstation</b>
-- <b>Security Onion</b>
-- <b>Kali Linux</b>
+- <b>Responder</b>
 - <b>Windows Server 2019 (as Active Directory)</b>
-- <b>Ubuntu Server (as Splunk)</b>
-- <b>Splunk Universal Forwarder</b>
+
 
 <h2>Environments Used </h2>
 
 - <b>Windows Server 2019</b>
-- <b>Linux</b>
+- <b>Windows 10</b>
+- <b>Kali Linux</b>
 <h2>Attack overview:</h2>
 
 You may need to run the setup for impacket in order to get the python script to run. <br />
