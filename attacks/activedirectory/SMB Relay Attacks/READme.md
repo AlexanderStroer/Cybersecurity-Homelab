@@ -10,7 +10,7 @@
 
 - <b>Responder</b>
 - <b>netcat</b>
-- <b>Windows Server 2019 (as Active Directory)</b>
+- <b>as Active Directory</b>
 
 
 <h2>Environments Used </h2>
