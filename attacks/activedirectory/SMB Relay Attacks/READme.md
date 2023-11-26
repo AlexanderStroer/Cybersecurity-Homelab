@@ -35,7 +35,6 @@
 <h2>Attack</h2>
 
 You may need to run the setup for impacket in order to get the python script to run. <br />
-
 Do this by navigating to the impacket directory and running <code>python setup.py install</code>
 
 <br />
