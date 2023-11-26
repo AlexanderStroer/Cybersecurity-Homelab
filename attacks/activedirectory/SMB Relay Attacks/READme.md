@@ -34,7 +34,7 @@
 - <b>Windows Server 2019</b>
 - <b>Linux</b>
 <h2>Attack overview:</h2>
-The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.
+1. The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.<br />
 
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
 
