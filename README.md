@@ -4,7 +4,7 @@
 In this homelab, VMware Workstation was installed as the hypervisor, serving as the virtualization platform. The next generation firewall, pfSense, was configured to utilize multiple network adapters to implement network segmentation. Security Onion, an integrated solution for IDS, Security Monitoring, and Log Management, was implemented to fortify the defensive capabilities of the lab. Kali Linux was set up to function as the designated attack machine. A Windows Server was configured as a secure Domain Controller, establishing an Active Directory environment. A Windows desktop was integrated into the domain and configured for efficient network communication. Additionally, Splunk was installed and configured on a Ubuntu Server for centralized log aggregation, and the Splunk Universal Forwarder was deployed on a Windows Server to facilitate log forwarding.
 <br /><br />
   
-My current goal with this project is to invest time into researching and learning to perform common attack methods and then using Splunk and Security Onion to accurately diagnose the issues. I will then demonstrate the understanding I have of these techniques by creating youtube videos with live demonstrations.<br /><br />
+My current goal with this project is to invest time into researching and learning to perform common attack methods and then using Splunk and Security Onion to accurately diagnose the issues. I will then demonstrate the understanding I have of these techniques by creating documenting my findings here.<br /><br />
 
 <h2>Attacks Perfomed (so far)</h2>
 
