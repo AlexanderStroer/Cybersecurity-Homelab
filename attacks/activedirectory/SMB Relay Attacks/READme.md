@@ -5,20 +5,6 @@
 
 <p>SMB Relay Attacks take advantage of legitimate user authentication to compromise systems. When an attacker intercepts SMB traffic, they can redirect it to another target system, tricking it into believing that the attacker is a legitimate user. This can lead to unauthorized access, data theft, and various other security breaches.</p>
 
-
-<h2>Prevention and Mitigation</h2>
-<p>To defend against SMB Relay Attacks, organizations should implement the following security measures:</p>
-<ul>
-   <li><strong>Network Segmentation:</strong> Isolate critical systems from less secure parts of the network to minimize the impact of potential attacks.</li>
-   <li><strong>Encryption:</strong> Use encrypted communication channels, such as SMB over VPN, to protect data from interception.</li>
-   <li><strong>Disable Unused SMB Versions:</strong> Disable older and less secure versions of SMB and use the latest secure versions.</li>
-   <li><strong>Strong Authentication:</strong> Implement multi-factor authentication to enhance user authentication security.</li>
-   <li><strong>Regular Audits:</strong> Conduct regular security audits and monitor network traffic for suspicious activities.</li>
-</ul>
-
-<p>By implementing these measures, organizations can significantly reduce the risk of SMB Relay Attacks and enhance the overall security posture of their network.</p>
-
-</b>
 <p align="center">
 <h2>Utilities Used</h2>
 
@@ -31,7 +17,22 @@
 - <b>Windows Server 2019</b>
 - <b>Windows 10</b>
 - <b>Kali Linux</b>
-<h2>Attack overview:</h2>
+
+<h2>Mitigation</h2>
+<p>To defend against SMB Relay Attacks, organizations should implement the following security measures:</p>
+<ul>
+   <li><strong>Network Segmentation:</strong> Isolate critical systems from less secure parts of the network to minimize the impact of potential attacks.</li>
+   <li><strong>Encryption:</strong> Use encrypted communication channels, such as SMB over VPN, to protect data from interception.</li>
+   <li><strong>Disable Unused SMB Versions:</strong> Disable older and less secure versions of SMB and use the latest secure versions.</li>
+   <li><strong>Strong Authentication:</strong> Implement multi-factor authentication to enhance user authentication security.</li>
+   <li><strong>Regular Audits:</strong> Conduct regular security audits and monitor network traffic for suspicious activities.</li>
+</ul>
+
+<p>By implementing these measures, organizations can significantly reduce the risk of SMB Relay Attacks and enhance the overall security posture of their network.</p>
+
+</b>
+
+<h2>Attack</h2>
 
 You may need to run the setup for impacket in order to get the python script to run. <br />
 
