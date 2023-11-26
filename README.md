@@ -11,7 +11,6 @@ My current goal with this project is to invest time into researching and learnin
 - <b>Active Directory</b>
   - <b>[LLMNP Poisoning](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/LLMNR%20Poisoning)
   - <b>[SMB Relay Attacks](https://github.com/AlexanderStroer/Cybersecurity-Homelab/tree/main/attacks/activedirectory/SMB%20Relay%20Attacks)</b>
-<br />
 
 <h2>Project overview:</h2>
 
