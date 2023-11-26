@@ -22,11 +22,10 @@
 <h2>Mitigation</h2>
 <p>To defend against SMB Relay Attacks, organizations should implement the following security measures:</p>
 <ul>
-   <li><strong>Network Segmentation:</strong> Isolate critical systems from less secure parts of the network to minimize the impact of potential attacks.</li>
-   <li><strong>Encryption:</strong> Use encrypted communication channels, such as SMB over VPN, to protect data from interception.</li>
-   <li><strong>Disable Unused SMB Versions:</strong> Disable older and less secure versions of SMB and use the latest secure versions.</li>
-   <li><strong>Strong Authentication:</strong> Implement multi-factor authentication to enhance user authentication security.</li>
-   <li><strong>Regular Audits:</strong> Conduct regular security audits and monitor network traffic for suspicious activities.</li>
+   <li><strong>Enable SMB Signing on all devices:</strong> This will completely stop the attacks but can cause performance issues with file copies (as much as 15% slower).</li>
+   <li><strong>Local Admin Restriction:</strong> Another strong recommendation is not giving a computer local admin rights. This can prevent lateral movement but has the potential to increase the amount of service desk tickets</li>
+   <li><strong>Best Practices:</strong> Account tiering (though it may be hard to enforce), Disabling NTLM authentication on network (but if kerberos stops working, windows defaults back to NLTM.</li>
+
 </ul>
 
 <p>By implementing these measures, organizations can significantly reduce the risk of SMB Relay Attacks and enhance the overall security posture of their network.</p>
