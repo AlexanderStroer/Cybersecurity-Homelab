@@ -48,6 +48,7 @@ Do this by navigating to the impacket directory and running <code>python setup.p
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/e8f4f31f-0110-4536-b964-c6aa065ceee3)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/35a525c0-7996-4f35-8d78-cb988016a59b)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/9421421e-31c9-446e-9783-18bccbcc7f25)
 
 </p>
 
