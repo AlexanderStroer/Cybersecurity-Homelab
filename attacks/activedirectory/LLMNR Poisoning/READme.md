@@ -52,6 +52,7 @@ You’ll need to install impacket for kali linux, you can find it here:
 1. Run the appropriate HashCat command (hint: hashcat --help | grep NTLM)<br />
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1f8fa93a-3ad1-4243-b07b-c716ef05f281)
 1. Hopefully you see success! If not consider using a list from [SecList](https://github.com/danielmiessler/SecLists) on github
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/432f5775-c881-41dc-bac0-a545833cbfd1)
 
 
 </p>
