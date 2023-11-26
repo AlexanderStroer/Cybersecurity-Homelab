@@ -15,7 +15,6 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
 - <b>Responder</b>
 - <b>Hashcat</b>
 - <b>Windows Server 2019 (as Active Directory)</b>
-- <b>VMware Workstation</b>
 
 
 <h2>Environments Used </h2>
