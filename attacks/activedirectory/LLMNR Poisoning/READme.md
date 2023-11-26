@@ -14,7 +14,6 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
  
 - <b>Responder</b>
 - <b>Hashcat</b>
-- <b>Kali Linux</b>
 - <b>Windows Server 2019 (as Active Directory)</b>
 - <b>VMware Workstation</b>
 
@@ -23,7 +22,7 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
 
 - <b>Windows Server 2019</b>
 - <b>Windows 10</b>
-- <b>Linux</b>
+- <b>Kali Linux</b>
 
 <h2>Mitigation</h2>
 <p>Effectively mitigating SMB Relay Attacks involves implementing security measures to address specific vulnerabilities. Two critical measures include:</p>
