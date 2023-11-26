@@ -49,6 +49,9 @@ Do this by navigating to the impacket directory and running <code>python setup.p
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/f178b1e3-3586-4ca6-9fcf-80704b853aa5)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/9421421e-31c9-446e-9783-18bccbcc7f25)
 
+1. Spawn an interactive shell
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/d9f6f1dc-6661-4187-a916-4c30b6baebe1)
+
 </p>
 
 <!--
