@@ -1,5 +1,4 @@
 <h1>SMB Relay Attacks</h1>
-<b>
 
 <h2>Description</h2>
 <p>This attack leverages open connections on ports 139 and 445 to exploit vulnerabilities in the Server Message Block (SMB) protocol. SMB is a network file-sharing protocol used for providing shared access to files, printers, and other resources on a network.</p>
@@ -38,9 +37,6 @@
 The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.
 
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
-
-</b>
-
 
 
 </p>
