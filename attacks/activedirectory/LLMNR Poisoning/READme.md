@@ -50,30 +50,28 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
 </ol>
 
 <p>By implementing these measures, you can significantly reduce the attack surface and strengthen your defenses against SMB Relay Attacks.</p>
-
-
-<b>
  
 <h2>Attack</h2>
-
  
 You’ll need to install impacket for kali linux, you can find it here: 
 [Impacket](https://github.com/fortra/impacket)<br />
 <br /><br />
 
 
-1. Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)<br />
-1. Run Responder with the command <i> responder -I eth1 -wd </i>(ignorantly put, this will act almost like a DNS except it will wait the source to fail to resolve a destination upon which responder will falsely claim that it has the requested information and receive the traffic illegitimately)<br />
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/d8ee2913-92dc-4fde-83da-23b5d970338b)<br />
-1. Now you'll need to wait for a user to make a mistake; alternatively I can feed that mistake by taking the network path straight to the attacker. Open up file explorer and type \\\ATTACK_MACHINES_IP_HERE<br /> <br />You'll see something like this appear on the victims side.<br />
+1. Identify the name of your NIC (usually eth0) by typing ifconfig. For me it was eth1)<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/851ba128-52e2-4a1c-bc58-475fdd58ea28)<br /><br />
+1. Run Responder with the command <br />
+<code> responder -I eth1 -wd </code><br />
+(ignorantly put, this will act almost like a DNS except it will wait the source to fail to resolve a destination upon which responder will falsely claim that it has the requested information and receive the traffic illegitimately)<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/d8ee2913-92dc-4fde-83da-23b5d970338b)<br /><br />
+1. Now you'll need to wait for a user to make a mistake; alternatively I can feed that mistake by taking the network path straight to the attacker. Open up file explorer and type \\\ATTACK_MACHINES_IP_HERE<br />You'll see something like this appear on the victims side.<br />
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/8626effd-5e38-4573-bd08-9c67e9290afe)<br />
 <br />And something like this on the attackers side.<br />
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/3581fa7e-7ea4-4391-957b-aa49f2d7a291)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/3581fa7e-7ea4-4391-957b-aa49f2d7a291)<br /><br />
 1. Save the the entire hash output into a txt file and move into a directory with a word list. I created a new directory and moved a copy of rockyou.txt into it.<br />
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1d70574a-ec55-4bbf-8f41-cfd9a2ee16d1)<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1d70574a-ec55-4bbf-8f41-cfd9a2ee16d1)<br /><br />
 1. Run the appropriate HashCat command (hint: hashcat --help | grep NTLM)<br />
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1f8fa93a-3ad1-4243-b07b-c716ef05f281)
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1f8fa93a-3ad1-4243-b07b-c716ef05f281)<br /><br />
 1. Hopefully you see success! If not consider using a list from [SecList](https://github.com/danielmiessler/SecLists) on github
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/432f5775-c881-41dc-bac0-a545833cbfd1)
 
