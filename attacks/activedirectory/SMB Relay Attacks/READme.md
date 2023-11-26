@@ -9,6 +9,7 @@
 <h2>Utilities Used</h2>
 
 - <b>Responder</b>
+- <b>netcat</b>
 - <b>Windows Server 2019 (as Active Directory)</b>
 
 
