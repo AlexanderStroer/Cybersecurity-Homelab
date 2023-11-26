@@ -1,5 +1,5 @@
 <h1>LLMNP Poisoning</h1>
-<b>
+
 <h2>Description</h2>
 LLMNR (Link-Local Multicast Name Resolution) poisoning is an attack that exploits the default behavior of Windows systems in resolving hostnames. In this attack, tools like Impacket's Responder are employed to intercept name resolution requests.
 
