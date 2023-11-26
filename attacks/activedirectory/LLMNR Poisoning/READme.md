@@ -46,8 +46,8 @@ You’ll need to install impacket for kali linux, you can find it here:
 1. Now you'll need to wait for a user to make a mistake; alternatively I can feed that mistake by taking the network path straight to the attacker. Open up file explorer and type \\\ATTACK_MACHINES_IP_HERE<br /> <br />You'll see something like this appear on the victims side.<br />
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/8626effd-5e38-4573-bd08-9c67e9290afe)<br />
 <br />And something like this on the attackers side. (I covered up some of the hash with that big box)<br />
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/611d9680-bafa-48fd-88d0-941d3a86b6d2)
-1. Save the the entire hash output into a txt file and move into a directory with a word list. I created a new directory and moved a copy of rockyou.txt into it.
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/3581fa7e-7ea4-4391-957b-aa49f2d7a291)
+1. Save the the entire hash output into a txt file and move into a directory with a word list. I created a new directory and moved a copy of rockyou.txt into it.<br />
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1d70574a-ec55-4bbf-8f41-cfd9a2ee16d1)<br />
 1. Run the appropriate HashCat command (hint: hashcat --help | grep NTLM)<br />
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/1f8fa93a-3ad1-4243-b07b-c716ef05f281)
