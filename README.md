@@ -57,6 +57,7 @@ credit to day cyberwox at cyberwoxacademy.com
 - <b>Splunk Universal Forwarder</b>
 - <b>Impacket's Responder</b>
 - <b>netcat</b>
+- <b>HashCat</b>
 
 <h2>Environments Used </h2>
 
