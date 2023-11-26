@@ -14,12 +14,9 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
  
 - <b>Responder</b>
 - <b>Hashcat</b>
-- <b>VMware Workstation</b>
-- <b>Security Onion</b>
 - <b>Kali Linux</b>
 - <b>Windows Server 2019 (as Active Directory)</b>
-- <b>Ubuntu Server (as Splunk)</b>
-- <b>Splunk Universal Forwarder</b>
+- <b>VMware Workstation</b>
 
 
 <h2>Environments Used </h2>
