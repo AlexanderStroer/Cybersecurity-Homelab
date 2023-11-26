@@ -5,7 +5,7 @@ LLMNR (Link-Local Multicast Name Resolution) poisoning is an attack that exploit
 
 When a Windows system is unable to resolve a hostname using traditional methods such as DNS, it sends out LLMNR requests to the local network. LLMNR poisoning involves responding to these requests with fraudulent information, redirecting the target system to an attacker-controlled system.
 
-Impacket's Responder, a popular tool for LLMNR poisoning, captures authentication requests sent by the target system. This interception allows the attacker to obtain plaintext credentials or hashed passwords, depending on the authentication protocols in use.
+Impacket's Responder captures authentication requests sent by the target system. This interception allows the attacker to obtain plaintext credentials or hashed passwords, depending on the authentication protocols in use.
 
 By manipulating the name resolution process, LLMNR poisoning creates a stealthy avenue for attackers to harvest sensitive credentials, posing a significant security risk to Windows-based networks. Organizations must be vigilant in implementing countermeasures to mitigate the impact of LLMNR poisoning, such as disabling LLMNR where it is unnecessary and implementing secure authentication practices.<br />
  
