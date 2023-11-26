@@ -44,10 +44,10 @@ Do this by navigating to the impacket directory and running <code>python setup.p
 
 1. The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.<br />
 
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/e37fd2ea-ec8e-4a0f-8957-91ac7452fa58)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/e8f4f31f-0110-4536-b964-c6aa065ceee3)
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
 ![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/35a525c0-7996-4f35-8d78-cb988016a59b)
-
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/4bbaa509-143a-4472-b074-9794cb66549a)
 
 </p>
 
