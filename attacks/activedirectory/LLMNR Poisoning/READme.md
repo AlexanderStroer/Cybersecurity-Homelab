@@ -49,7 +49,7 @@ By manipulating the name resolution process, LLMNR poisoning creates a stealthy 
   </ul>
 </ol>
 
-<p>By implementing these measures, you can significantly reduce the attack surface and strengthen your defenses against SMB Relay Attacks.</p>
+<p>By implementing these measures, you can significantly reduce the attack surface and strengthen your defenses against SMB Relay Attacks. But if your organization needs to keep LLMNR / NTB-NS enabled, ensure network access control by enforcing registered MAC Addresses only and ensuring passwords with lengths over 14 characters.</p>
  
 <h2>Attack</h2>
  
