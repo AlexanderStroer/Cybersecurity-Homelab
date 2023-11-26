@@ -20,7 +20,6 @@
 <p>By implementing these measures, organizations can significantly reduce the risk of SMB Relay Attacks and enhance the overall security posture of their network.</p>
 
 </b>
-<br />
 <p align="center">
 <h2>Utilities Used</h2>
 
