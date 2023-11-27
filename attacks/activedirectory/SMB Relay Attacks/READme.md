@@ -10,7 +10,7 @@
 
 - <b>Responder</b>
 - <b>netcat</b>
-- <b>as Active Directory</b>
+- <b>Active Directory</b>
 
 
 <h2>Environments Used </h2>
