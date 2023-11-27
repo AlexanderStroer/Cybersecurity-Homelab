@@ -21,17 +21,11 @@
 - <b>Kali Linux</b>
 
 <h2>Mitigation</h2>
-<p>To defend against SMB Relay Attacks, organizations should implement the following security measures:</p>
-<ul>
-   <li><strong>Enable SMB Signing on all devices:</strong> This will completely stop the attacks but can cause performance issues with file copies.</li>
-   <li><strong>Local Admin Restriction:</strong> Another strong recommendation is not giving a computer local admin rights. This can prevent lateral movement but has the potential to increase the amount of service desk tickets.</li>
-   <li><strong>Best Practices:</strong> Account tiering (though it may be hard to enforce), Disabling NTLM authentication on network (but if kerberos stops working, windows defaults back to NLTM.</li>
 
-</ul>
 
-<p>By implementing these measures, organizations can significantly reduce the risk of SMB Relay Attacks and enhance the overall security posture of their network.</p>
 
-</b>
+
+
 
 <h2>Attack</h2>
 
