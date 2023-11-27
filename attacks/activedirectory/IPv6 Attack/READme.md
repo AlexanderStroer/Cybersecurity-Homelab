@@ -10,8 +10,6 @@
 <p align="center">
 <h2>Utilities Used</h2>
 
-- <b>Responder</b>
-- <b>netcat</b>
 - <b>Active Directory</b>
 - <b>mitm6</b>
 
