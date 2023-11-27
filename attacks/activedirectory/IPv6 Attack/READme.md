@@ -40,9 +40,13 @@
 <br />
 <br />
 
-1. The first step involved creating a file share to open ports 139 and 445. I have documented how to do that on my own notes page; if employers would like to see it they can always ask.<br />
+1. First, spin up a mitm6 session by providing the domain.<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/9320c16d-dd6b-4a80-9580-4dca8db205c8)<br />
 
-![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/e37fd2ea-ec8e-4a0f-8957-91ac7452fa58)
+
+1. Secondly, spin up a ntlmrelay attack.<br />
+![image](https://github.com/AlexanderStroer/Cybersecurity-Homelab/assets/122342684/0ef286e3-4d4f-417b-ac0d-ecb6e90d287e)<br />
+
 
 
 
